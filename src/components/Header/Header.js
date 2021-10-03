@@ -6,13 +6,13 @@ const Header = () => {
     return (
    
        <div className="bg-dark">
-            <div className="row">
-          <div className="col-md-4 d-flex align-items-center justify-content-center">
+            <div className="row container">
+          <div className=" col-sm-12 col-md-5 col-lg-4  d-flex align-items-center justify-content-center">
             <h3 className="text-white ">CODE KNOWLEDGE</h3>
           </div>
           
-          <div className="col-md-8">
-              <ul className="d-flex align-items-end justify-content-end">
+          <div className="col-sm-12 col-md-6 col-lg-8 ">
+              <ul className=" d-flex align-items-end justify-content-end">
 
                 <NavLink to="/home" className="navItemsStyle">
                   <li>Home</li>

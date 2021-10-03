@@ -10,11 +10,11 @@ const Footer = () => {
               <div className="text-start">
                 <h1>CODE KNOWLEAGE</h1>
                 <div className="icons-container d-flex text-center ">
-                  <i class="footerIconStyle fab fa-facebook"></i>
-                  <i class="footerIconStyle fab fa-twitter-square"></i>
-                  <i class="footerIconStyle fab fa-youtube"></i>
-                  <i class="footerIconStyle fab fa-instagram-square"></i>
-                  <i class="footerIconStyle fab fa-skype"></i>
+                  <i className="footerIconStyle fab fa-facebook"></i>
+                  <i className="footerIconStyle fab fa-twitter-square"></i>
+                  <i className="footerIconStyle fab fa-youtube"></i>
+                  <i className="footerIconStyle fab fa-instagram-square"></i>
+                  <i className="footerIconStyle fab fa-skype"></i>
                 </div>
                 <p className="mt-4 ">
                   <small>
@@ -45,7 +45,7 @@ const Footer = () => {
                 
                 <div className="phone d-flex align-items-center justify-content-center mt-4">
                   <div className="foter-call-icon">
-                  <i class="fas fa-phone-volume"></i>
+                  <i className="fas fa-phone-volume"></i>
                   </div>
                   <div  className='ms-3'>
                     <h5>+18801643-797859</h5>
@@ -53,7 +53,7 @@ const Footer = () => {
                 </div>
                 <div className="map d-flex align-items-center justify-content-center">
                   <div className="foter-market-icon">
-                  <i class="fas fa-map-marked-alt"></i>
+                  <i className="fas fa-map-marked-alt"></i>
                   </div>
                   <div className='ms-3'>
                     <p>
