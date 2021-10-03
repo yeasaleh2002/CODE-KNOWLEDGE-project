@@ -1,0 +1,30 @@
+.footerIconStyle {
+    margin: 5px;
+    padding: 5px;
+    background-color: antiquewhite;
+    color: blue;
+    font-size: 30px;
+  }
+  .footerIconStyle:hover {
+    background-color: red;
+  }
+  
+  .footer-menu-title {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .footer-menu-title:hover {
+    color: aqua;
+  }
+ 
+  
+  .foter-call-icon {
+    font-size: 30px;
+    color: red;
+  }
+  .foter-market-icon {
+    font-size: 30px;
+    color: red;
+  }

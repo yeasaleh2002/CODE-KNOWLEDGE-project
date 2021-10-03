@@ -1,0 +1,13 @@
+.navItemsStyle {
+    list-style: none;
+    margin-right: 35px;
+    font-size: 22px;
+    font-weight: 500;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .navItemsStyle:hover {
+    color: tomato;
+  }
