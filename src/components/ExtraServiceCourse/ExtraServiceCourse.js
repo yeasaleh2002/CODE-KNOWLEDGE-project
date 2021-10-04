@@ -41,7 +41,7 @@ const ExtraServiceCourse = (props) => {
 
             
               {/*extra course buy now button use dynamic */}
-            <button className="btn btn-danger">Buy Now</button>
+            <button className="btn btn-danger">Join Now</button>
             
           </Card.Body>
         </Card>

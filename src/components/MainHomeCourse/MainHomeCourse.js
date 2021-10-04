@@ -40,7 +40,7 @@ const MainHomeCourse = (props) => {
             </h4>
             
             {/*extra course buy now button use dynamic */}
-            <button className="btn btn-primary">Buy Now</button>
+            <button className="btn btn-primary">Join Now</button>
 
           </Card.Body>
         </Card>
