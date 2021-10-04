@@ -5,10 +5,10 @@ import './Header.css';
 const Header = () => {
     return (
    
-       <div className="bg-dark">
+       <div className="bg-dark py-5">
             <div className="row container">
           <div className=" col-sm-12 col-md-5 col-lg-4  d-flex align-items-center justify-content-center">
-            <h3 className="text-white ">CODE KNOWLEDGE</h3>
+            <h1 className="text-white">CODE KNOWLEDGE</h1>
           </div>
           
           <div className="col-sm-12 col-md-6 col-lg-8 ">

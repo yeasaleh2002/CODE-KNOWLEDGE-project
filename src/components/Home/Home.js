@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import MainHomeCourse from '../MainHomeCourse/MainHomeCourse';
+import './Home.css';
 
 const Home = () => {
 
@@ -15,23 +16,25 @@ const Home = () => {
     }, [])
 
     return (
-        <div className="container my-5">
+       <div className="home-part-style">
+            <div className="container py-5">
 
-    <Row xs={1} md={2} lg={3} className="g-4">
+<Row xs={1} md={2} lg={3} className="g-4">
+
+{
+        courses.map(course => <MainHomeCourse
+            key = {course._id}
+            course = {course}
+            >
+
+            </MainHomeCourse>
+            )
+    }
+
+</Row>
    
-    {
-            courses.map(course => <MainHomeCourse
-                key = {course._id}
-                course = {course}
-                >
-
-                </MainHomeCourse>
-                )
-        }
-
-   </Row>
-       
-        </div>
+    </div>
+       </div>
     );
 };
 

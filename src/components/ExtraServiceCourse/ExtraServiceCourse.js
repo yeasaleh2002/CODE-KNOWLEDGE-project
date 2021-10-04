@@ -5,7 +5,7 @@ const ExtraServiceCourse = (props) => {
     const {teacherName, courseName, picture, courseFee} = props?.course || {}
 
     return (
-      
+             
         <Col>
         <Card className="card-style">
             <div className=" d-flex align-items-center justify-content-center ">
