@@ -3,3 +3,16 @@
     background-color: blanchedalmond;
     
 }
+
+
+  /* about call icon style  */
+  .footer-call-icon {
+    font-size: 30px;
+    color: red;
+  }
+
+  /* about market icon style  */
+  .footer-market-icon {
+    font-size: 30px;
+    color: red;
+  }

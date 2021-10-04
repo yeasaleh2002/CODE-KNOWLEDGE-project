@@ -1,11 +1,12 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './ExtraServiceCourse.css';
 
 const ExtraServiceCourse = (props) => {
 
   /* props.course destructring */
-    const {teacherName, courseName, picture, courseFee} = props?.course || {}
+    const {_id ,teacherName, courseName, picture, courseFee} = props?.course || {}
 
     return (
              
@@ -39,9 +40,12 @@ const ExtraServiceCourse = (props) => {
             </Card.Text>
             </h4>
 
-            
-              {/*extra course buy now button use dynamic */}
+                      
+
+         {/*extra course join now button use dynamic */}
+            <Link to={`/extraCourseDetails/${_id}`}>
             <button className="btn btn-danger">Join Now</button>
+            </Link>
             
           </Card.Body>
         </Card>

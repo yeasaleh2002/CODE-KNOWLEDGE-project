@@ -8,6 +8,8 @@ import About from './components/About/About';
 import QandA from './components/QandA/QandA';
 import Footer from './components/Footer/Footer';
 import Error from './components/Error/Error';
+import CourseDetails from './components/CourseDetails/CourseDetails';
+import ExtraCourseDetails from './components/ExtraCourseDetails/ExtraCourseDetails';
 
 
 function App() {
@@ -31,11 +33,25 @@ function App() {
            <Home></Home>
          </Route>
 
+         
+
+             {/* course details route declare */}
+            <Route path="/courseDetails/:courseId">
+              <CourseDetails></CourseDetails>
+            </Route>
+
+
+
 
    {/* service route declare */}
          <Route path="/service">
            <Service></Service>
          </Route>
+
+    {/*extra course details route declare */}
+           <Route path="/extraCourseDetails/:courseId">
+              <ExtraCourseDetails></ExtraCourseDetails>
+            </Route>
 
 
    {/* about route declare */}

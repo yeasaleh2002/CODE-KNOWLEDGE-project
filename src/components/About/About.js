@@ -38,16 +38,16 @@ const About = () => {
                 <h1>Contact Us</h1>
                 
                 <div className="phone d-flex align-items-center justify-content-center mt-4">
-                  <div className="foter-call-icon">
-                  <i className="fas fa-phone-volume"></i>
+                  <div>
+                  <i className="fas fa-phone-volume footer-call-icon"></i>
                   </div>
                   <div  className='ms-3'>
                     <h2>+18801643-797859</h2>
                   </div>
                 </div>
                 <div className="map d-flex align-items-center justify-content-center">
-                  <div className="foter-market-icon">
-                  <i className="fas fa-map-marked-alt"></i>
+                  <div>
+                  <i className="fas fa-map-marked-alt footer-market-icon"></i>
                   </div>
                   <div className='ms-3'>
                     <h3>
