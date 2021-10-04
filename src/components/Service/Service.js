@@ -5,10 +5,11 @@ import './Service.css';
 
 
 const Service = () => {
-      // main home courses state declare
+      // extra service courses state declare
       const [courses, setCourses] = useState([]);
 
 
+      // useEffect use and fatch call api
       useEffect(() => {
           fetch(`/codeKnowledgeService.json`)
           .then(response => response.json())
@@ -20,14 +21,14 @@ const Service = () => {
 
         <div className="service-style py-4">
      
-
           <div className="container p-2">
-
 
               <h1 className="text-danger pb-4">Our Service</h1> 
   
       <Row xs={1} md={2} lg={3} className="g-4">
      
+     
+     {/* extra service maping */}
       {
               courses.map(course => <ExtraServiceCourse
                   key = {course._id}

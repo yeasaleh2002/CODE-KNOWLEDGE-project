@@ -1,3 +1,4 @@
+ /* footer icon style  */
 .footerIconStyle {
     margin: 5px;
     padding: 5px;
@@ -5,26 +6,35 @@
     color: blue;
     font-size: 30px;
   }
+
+  /* footer icon style after hover  */
   .footerIconStyle:hover {
     background-color: red;
   }
   
-  .footer-menu-title {
+  /* footer menu navlink style  */
+  .footer-menu-navLink {
+    text-decoration: none;
     list-style: none;
+    color: white;
     margin-top: 20px;
     font-size: 22px;
     cursor: pointer;
   }
-  .footer-menu-title:hover {
+
+  /* footer menu title style after hover */
+  .footer-menu-navLink:hover {
     color: aqua;
   }
  
-  
-  .foter-call-icon {
+  /* footer call icon style  */
+  .footer-call-icon {
     font-size: 30px;
     color: red;
   }
-  .foter-market-icon {
+
+  /* footer market icon style  */
+  .footer-market-icon {
     font-size: 30px;
     color: red;
   }

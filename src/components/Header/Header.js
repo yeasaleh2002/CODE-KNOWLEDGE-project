@@ -7,11 +7,14 @@ const Header = () => {
    
        <div className="bg-dark py-5">
             <div className="row container">
-          <div className=" col-sm-12 col-md-5 col-lg-4  d-flex align-items-center justify-content-center">
+
+              {/* website name */}
+          <div className=" col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center">
             <h1 className="text-white">CODE KNOWLEDGE</h1>
           </div>
           
-          <div className="col-sm-12 col-md-6 col-lg-8 ">
+          {/* use NavLink */}
+          <div className="col-sm-12 col-md-8 col-lg-8 ">
               <ul className=" d-flex align-items-end justify-content-end">
 
                 <NavLink to="/home" className="navItemsStyle">

@@ -1,8 +1,10 @@
+/* header card style  */
 .card-style {
-    background-color: whitesmoke;
-
+    background-color: wheat;
+    box-shadow: 5px 5px 5px gray;
 }
 
+/* header card image style  */
 .card-img-style{
    padding: 10px;
     width: 300px;

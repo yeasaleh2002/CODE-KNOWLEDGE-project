@@ -9,6 +9,7 @@ const Home = () => {
    const [courses, setCourses] = useState([]);
 
 
+    // useEffect use and fatch call api 
     useEffect(() => {
         fetch(`/codeKnowledgeHome.json`)
         .then(response => response.json())
@@ -19,9 +20,11 @@ const Home = () => {
        <div className="home-part-style">
             <div className="container py-5">
 
-<Row xs={1} md={2} lg={3} className="g-4">
+      {/* home page   */}
+    <Row xs={1} md={2} lg={3} className="g-4">
 
-{
+    {/* courses maping */}
+        {
         courses.map(course => <MainHomeCourse
             key = {course._id}
             course = {course}
@@ -31,10 +34,10 @@ const Home = () => {
             )
     }
 
-</Row>
+    </Row>
    
+         </div>
     </div>
-       </div>
     );
 };
 

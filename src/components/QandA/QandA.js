@@ -10,7 +10,7 @@ const QandA = () => {
 
             </div>
 
-
+     {/* Accordion part 1 */}
             <div>
             <Accordion defaultActiveKey="0">
   <Accordion.Item eventKey="0">
@@ -21,6 +21,7 @@ const QandA = () => {
     </Accordion.Body>
   </Accordion.Item>
 
+  {/* Accordion part 2 */}
   <Accordion.Item eventKey="1">
     <Accordion.Header><b>  Describe about  Python Programming Language</b></Accordion.Header>
     <Accordion.Body>
@@ -29,6 +30,7 @@ Python is dynamically-typed and garbage-collected. It supports multiple programm
     </Accordion.Body>
   </Accordion.Item>
 
+  {/* Accordion part 3 */}
   <Accordion.Item eventKey="2">
     <Accordion.Header> <b>  Describe about  JavaScript Programming Language</b></Accordion.Header>
     <Accordion.Body>
@@ -37,6 +39,7 @@ Python is dynamically-typed and garbage-collected. It supports multiple programm
     </Accordion.Body>
   </Accordion.Item>
 
+  {/* Accordion part 4 */}
   <Accordion.Item eventKey="3">
     <Accordion.Header> <b>  Describe about  Java Programming Language</b></Accordion.Header>
     <Accordion.Body>
@@ -44,6 +47,7 @@ Python is dynamically-typed and garbage-collected. It supports multiple programm
     </Accordion.Body>
   </Accordion.Item>
 
+  {/* Accordion part 5 */}
   <Accordion.Item eventKey="4">
     <Accordion.Header> <b>  Describe about  C Programming Language</b></Accordion.Header>
     <Accordion.Body>
@@ -51,6 +55,7 @@ Python is dynamically-typed and garbage-collected. It supports multiple programm
     </Accordion.Body>
   </Accordion.Item>
 
+  {/* Accordion part 6 */}
   <Accordion.Item eventKey="5">
     <Accordion.Header> <b>  Describe about  PHP Programming Language</b></Accordion.Header>
     <Accordion.Body>
@@ -58,6 +63,7 @@ Python is dynamically-typed and garbage-collected. It supports multiple programm
     </Accordion.Body>
   </Accordion.Item>
 
+  {/* Accordion part 7 */}
   <Accordion.Item eventKey="6">
     <Accordion.Header> <b> Describe about  C# Programming Language</b></Accordion.Header>
     <Accordion.Body>
@@ -65,6 +71,7 @@ Python is dynamically-typed and garbage-collected. It supports multiple programm
     </Accordion.Body>
   </Accordion.Item>
 
+  {/* Accordion part 8 */}
   <Accordion.Item eventKey="7">
     <Accordion.Header> <b> Describe about  Swift Programming Language</b></Accordion.Header>
     <Accordion.Body>

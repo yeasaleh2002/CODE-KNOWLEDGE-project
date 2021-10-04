@@ -1,3 +1,4 @@
+/* header nav item style  */
 
 .navItemsStyle {
     list-style: none;
@@ -9,6 +10,8 @@
     padding: 10px;
     text-decoration: none;
   }
+
+  /* header nav item style after hover  */
   .navItemsStyle:hover {
     color: tomato;
   }

@@ -14,32 +14,43 @@ function App() {
   return (
     <div className="App">
       
+      {/* router declare start */}
      <BrowserRouter>
 
      <Header></Header>
 
        <Switch>
 
+     {/* default route declare */}
          <Route exact path="/">
            <Home></Home>
          </Route>
 
+   {/* home route declare */}
          <Route path="/home">
            <Home></Home>
          </Route>
 
+
+   {/* service route declare */}
          <Route path="/service">
            <Service></Service>
          </Route>
 
+
+   {/* about route declare */}
          <Route path="/about">
            <About></About>
          </Route>
 
+
+   {/* question and answer route declare */}
          <Route path="/question">
            <QandA></QandA>
          </Route>
 
+
+   {/* not found route declare */}
          <Route path="*">
              <Error></Error>
          </Route>
@@ -49,6 +60,8 @@ function App() {
        <Footer></Footer>
 
      </BrowserRouter>
+   {/* router declare end */}
+
     </div>
   );
 }
