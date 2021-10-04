@@ -3,15 +3,12 @@ import './About.css';
 
 const About = () => {
     return (
-        
-
-       
+              
         <div className="about-style">
 
         <h1 className="text-info p-5">Address</h1>
         <br />
         
-
 
             <div  className="row p-5">
                 <div className="col-md-6 ">
@@ -22,6 +19,8 @@ const About = () => {
                 </div>
             </div>
 
+
+  
 
             <div  className="row p-5">
                 
@@ -58,8 +57,8 @@ const About = () => {
                 <div className="col-md-6">
                 <img className="w-100" src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVcZOWiNbgVszd6slJSzepsb_A8eHdd9IgbA&usqp=CAU"} alt="" />
                 </div>
-            </div>
-        </div>
+      </div>
+  </div>
 
         
         

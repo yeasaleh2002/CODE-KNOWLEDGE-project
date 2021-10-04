@@ -280,7 +280,7 @@
       "index": 6,
       "guid": "11fc4dc7-a26a-417d-9f4d-eb3f76429d94",
       "isActive": true,
-      "balance": "$125",
+      "courseFee": "$125",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlYJ7sGxVvFsdQo90byteQuixF6aQMUMTgmg&usqp=CAU",
       "age": 30,
       "eyeColor": "blue",
@@ -326,7 +326,7 @@
       "index": 7,
       "guid": "cea55fe7-a65a-4159-80de-8adc838aa56a",
       "isActive": false,
-      "balance": "$213",
+      "courseFee": "$213",
       "picture": "https://miro.medium.com/max/750/1*OgeU8HPo8TFF1cZQ-4XjJw.jpeg",
       "age": 36,
       "eyeColor": "green",
@@ -372,7 +372,7 @@
       "index": 8,
       "guid": "f5e8cbc9-a667-4f4a-adf4-40429b15e778",
       "isActive": false,
-      "balance": "$146",
+      "courseFee": "$146",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGGOif2hN0ojHqVg2OZDQgERhHVD70MoaDg&usqp=CAU",
       "age": 22,
       "eyeColor": "blue",
@@ -418,7 +418,7 @@
       "index": 9,
       "guid": "cba38983-b3b3-4456-b74c-c8e89343ca84",
       "isActive": true,
-      "balance": "$376",
+      "courseFee": "$376",
       "picture": "https://wtmatter.com/wp-content/uploads/2020/07/Data-Structures.png",
       "age": 38,
       "eyeColor": "blue",
@@ -458,5 +458,236 @@
       ],
       "greeting": "Hello, Short Sanchez! You have 4 unread messages.",
       "favoriteFruit": "strawberry"
+    },
+    {
+      "_id": "615a66321864cc2f8a7e44cf",
+      "index": 10,
+      "guid": "84809d82-95f8-416a-b539-c0f7443f7fbd",
+      "isActive": true,
+      "courseFee": "$182",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGSkV_aRMiFmN7judgNAQMYmYalzHzP74UQw&usqp=CAU",
+      "age": 25,
+      "eyeColor": "green",
+      "courseName": "Algorithm",
+      "teacherName": "Hasem Mahmud",
+      "gender": "male",
+      "company": "ZILLACTIC",
+      "email": "bradshawaustin@zillactic.com",
+      "phone": "+1 (978) 514-2919",
+      "address": "346 McKinley Avenue, Frierson, Louisiana, 1533",
+      "about": "Est esse ea labore Lorem occaecat laboris. Eiusmod culpa laboris Lorem amet aliqua aliquip incididunt ipsum laborum. Anim ut nostrud elit ipsum voluptate sint pariatur voluptate consequat.\r\n",
+      "registered": "2017-01-29T11:24:59 -06:00",
+      "latitude": 13.205434,
+      "longitude": -120.584614,
+      "tags": [
+        "irure",
+        "enim",
+        "mollit",
+        "sint",
+        "enim",
+        "elit",
+        "ea"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Adrian Boone"
+        },
+        {
+          "id": 1,
+          "name": "Silvia Castillo"
+        },
+        {
+          "id": 2,
+          "name": "Johnnie Camacho"
+        }
+      ],
+      "greeting": "Hello, Bradshaw Austin! You have 8 unread messages.",
+      "favoriteFruit": "banana"
+    },
+
+    {
+      "_id": "615a66321165817ad02e017e",
+      "index": 11,
+      "guid": "55c6b57c-5a6a-4655-9a8a-6bc594e91a82",
+      "isActive": false,
+      "courseFee": "$366",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCc8Oka5KG7mzlkpeRZE8nVR_KjK4_mMg0NQ&usqp=CAU",
+      "age": 20,
+      "eyeColor": "blue",
+      "courseName": "Artificial intelligence",
+      "teacherName": "Rabbil Hasan",
+      "gender": "male",
+      "company": "GUSHKOOL",
+      "email": "tinahampton@gushkool.com",
+      "phone": "+1 (875) 453-3528",
+      "address": "129 Lombardy Street, Stockwell, New Hampshire, 8971",
+      "about": "Voluptate magna consectetur pariatur nisi dolore irure. Incididunt cupidatat ad eu consectetur anim tempor nulla. Esse irure ad Lorem enim voluptate incididunt culpa eu ex. Ut amet ex labore laborum cupidatat quis minim dolor non pariatur dolor.\r\n",
+      "registered": "2020-10-11T01:03:58 -06:00",
+      "latitude": 15.587549,
+      "longitude": 36.313883,
+      "tags": [
+        "magna",
+        "voluptate",
+        "ea",
+        "culpa",
+        "irure",
+        "aliqua",
+        "et"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Jeannie Williamson"
+        },
+        {
+          "id": 1,
+          "name": "Leah Dickson"
+        },
+        {
+          "id": 2,
+          "name": "Dillard Logan"
+        }
+      ],
+      "greeting": "Hello, Tina Hampton! You have 1 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "615a6632c8ed171e7e721509",
+      "index": 12,
+      "guid": "e4fc82cb-39b5-4272-b655-b539fc7965a5",
+      "isActive": true,
+      "courseFee": "$281",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsh3n29Iw5iVmWbLRoDJPkilEDOlJks8JNMg&usqp=CAU",
+      "age": 24,
+      "eyeColor": "brown",
+      "courseName": "Cyber security",
+      "teacherName": "Foysal Fahad",
+      "gender": "male",
+      "company": "MENBRAIN",
+      "email": "nashdalton@menbrain.com",
+      "phone": "+1 (825) 469-2641",
+      "address": "374 Sutton Street, Dupuyer, Wisconsin, 845",
+      "about": "Exercitation est proident do incididunt veniam pariatur sunt nulla id nulla ipsum cillum. Sunt minim amet in enim eiusmod sint excepteur ad. Laborum non reprehenderit irure veniam. Sint irure dolor Lorem quis minim officia reprehenderit ullamco voluptate sunt cillum cupidatat consequat in.\r\n",
+      "registered": "2016-04-12T10:58:17 -06:00",
+      "latitude": 4.117476,
+      "longitude": 132.541125,
+      "tags": [
+        "pariatur",
+        "reprehenderit",
+        "commodo",
+        "incididunt",
+        "minim",
+        "elit",
+        "ex"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "James Skinner"
+        },
+        {
+          "id": 1,
+          "name": "Wiggins Shannon"
+        },
+        {
+          "id": 2,
+          "name": "Cornelia Garcia"
+        }
+      ],
+      "greeting": "Hello, Nash Dalton! You have 5 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "615a6632c8fa9fcf9015fa0c",
+      "index": 13,
+      "guid": "8a6714ee-e734-48c6-9922-79556f6ba454",
+      "isActive": false,
+      "courseFee": "$176",
+      "picture": "https://thewebtier-bucket.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/01/12093906/nodejs-twt.png",
+      "age": 35,
+      "eyeColor": "green",
+      "courseName": "Node JS",
+      "teacherName": "Junayed Ahmed",
+      "gender": "male",
+      "company": "ZIGGLES",
+      "email": "whitneygarrison@ziggles.com",
+      "phone": "+1 (979) 527-3574",
+      "address": "566 Arlington Place, Fairview, Arizona, 5410",
+      "about": "Ad aliquip elit aute est magna ipsum nisi eiusmod anim nisi ullamco aute tempor ut. Nulla exercitation exercitation et amet adipisicing do ad fugiat. Quis ex nulla eiusmod enim tempor labore cillum magna. Ad velit pariatur minim commodo aliquip dolore mollit in irure. Labore laborum aute ullamco est ut. Laboris aliquip nisi Lorem in enim excepteur cillum duis quis cupidatat non magna enim cillum.\r\n",
+      "registered": "2016-06-20T04:31:06 -06:00",
+      "latitude": -66.06306,
+      "longitude": -134.503856,
+      "tags": [
+        "sit",
+        "nisi",
+        "voluptate",
+        "aliquip",
+        "voluptate",
+        "tempor",
+        "ea"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Francine Hart"
+        },
+        {
+          "id": 1,
+          "name": "Lilly Jimenez"
+        },
+        {
+          "id": 2,
+          "name": "Swanson Wise"
+        }
+      ],
+      "greeting": "Hello, Whitney Garrison! You have 4 unread messages.",
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "_id": "615a6632883df896e85ce6ab",
+      "index": 14,
+      "guid": "11b7a0df-50dd-4002-98b9-00b9a6aadf3f",
+      "isActive": true,
+      "courseFee": "$132",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnWwWcHpya-SzuqZL8A0EDfnQPpo0Z3BQCCw&usqp=CAU",
+      "age": 26,
+      "eyeColor": "brown",
+      "courseName": "React JS",
+      "teacherName": "Mahmudul hasan",
+      "gender": "male",
+      "company": "DANCERITY",
+      "email": "tamekajoseph@dancerity.com",
+      "phone": "+1 (814) 468-3850",
+      "address": "160 Halleck Street, Garnet, Washington, 2233",
+      "about": "Eiusmod velit Lorem pariatur deserunt excepteur excepteur qui eu ipsum aliqua. Cillum minim cillum duis sit sint duis tempor irure magna nostrud qui minim. Qui proident non mollit anim duis consequat ea ut amet Lorem. Incididunt mollit aute mollit reprehenderit cillum mollit et et minim officia duis. Voluptate Lorem labore nostrud Lorem consectetur dolor est voluptate ullamco id nisi. Excepteur pariatur nostrud exercitation veniam non voluptate sint.\r\n",
+      "registered": "2020-12-03T07:16:50 -06:00",
+      "latitude": 88.884733,
+      "longitude": -173.347131,
+      "tags": [
+        "dolor",
+        "anim",
+        "id",
+        "reprehenderit",
+        "occaecat",
+        "reprehenderit",
+        "qui"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Roth Bradley"
+        },
+        {
+          "id": 1,
+          "name": "Flora Forbes"
+        },
+        {
+          "id": 2,
+          "name": "Lois Robertson"
+        }
+      ],
+      "greeting": "Hello, Tameka Joseph! You have 7 unread messages.",
+      "favoriteFruit": "apple"
     }
   ]

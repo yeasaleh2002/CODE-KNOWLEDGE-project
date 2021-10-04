@@ -21,7 +21,7 @@
 
 5. We have all the information in the about section.
 
-6. The questions about our course are in the question and answer part.
+6. The question and answer part , we describe about some basic programming language.
 
 7. Code Knowledge is a nationwide online platform for learning programming. We believe that programming will bring a new look to the world. This online education system has been introduced so that we do not fall behind in programming.
 
