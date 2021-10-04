@@ -74,6 +74,7 @@ function App() {
        </Switch>
 
        <Footer></Footer>
+       
 
      </BrowserRouter>
    {/* router declare end */}
