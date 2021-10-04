@@ -14,7 +14,7 @@ const Header = () => {
           </div>
           
           {/* use NavLink */}
-          <div className="col-sm-12 col-md-8 col-lg-8 ">
+           <div className="col-sm-12 col-md-8 col-lg-8 ">
               <ul className=" d-flex align-items-end justify-content-end">
 
                 <NavLink to="/home" className="navItemsStyle">
@@ -34,6 +34,9 @@ const Header = () => {
                 </NavLink>
               </ul>
             </div>
+
+
+            
           </div>
        </div>
         
