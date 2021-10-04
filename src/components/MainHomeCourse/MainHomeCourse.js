@@ -33,7 +33,7 @@ const MainHomeCourse = (props) => {
             </h4>
 
 
-           {/*extra course teacher name use dynamic */}
+           {/*main course teacher name use dynamic */}
             <h4> 
              <Card.Text>
              <b>Teacher Name:</b> {teacherName}
@@ -41,7 +41,7 @@ const MainHomeCourse = (props) => {
             </h4>
             
 
-     {/*extra course join now button use dynamic */}
+     {/*main course join now button use dynamic */}
             <Link to={`/courseDetails/${_id}`}>
             <button className="btn btn-primary">Join Now</button>
             </Link>
